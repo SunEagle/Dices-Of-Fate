@@ -7,3 +7,6 @@ Thumbs.db
 .idea/
 *.suo
 *.user
+
+# Helper files
+commit.txt
