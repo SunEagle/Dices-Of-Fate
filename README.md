@@ -1,7 +1,7 @@
 # 🎲 Dices of Fate
 
-A two-player dice game built with vanilla HTML, CSS and JavaScript.
-Features a multi-phase animated dice roll with gradual slowdown, turn management, blinking dice visual effectts, player inactivity detection, visual effects to get their attention, dynamic winner/tie detection, sound effects and a full game reset.
+A two-player dice game built with vanilla HTML, CSS and JavaScript.<br />
+Features a multi-phase animated dice roll with gradual slowdown, turn management, blinking dice visual effectts, player inactivity detection, visual effects to get their attention, dynamic winner/tie detection, sound effects and a full game reset.<br />
 All without any frameworks or libraries.
 
 ## 🚀 Live Demo
@@ -10,7 +10,7 @@ All without any frameworks or libraries.
 
 ## 📸 Screenshot
 
-![Dices of Fate gameplay](assets/img/screenshot.png)
+![Dices of Fate gameplay](assets/img/Screenshot_20260624_020330.png)
 
 ## ✨ Features
 
