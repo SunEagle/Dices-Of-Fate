@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Random Dices Of The Ultimate Fate</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Dices of Fate</h1>
+      </div>
+
+      <div class="winner-banner">
+        <h2 class="congrats-txt">Congratulations Player <span class="winner-player"></span></h2>
+        <p>Scoop the money away, it's all yours!</p>
+      </div>
+
+      <div class="tie-banner">
+        <h2>Uuuhhh It's a tie!</h2>
+      </div>
+
+      <div class="container-dice">
+        <div id="dice1div" class="dice">
+          <p>Player 1</p>
+          <img class="img1" src="/assets/img/dice6.png" />
+          <div id="btnRoll1" class="btn-roll btnRoll-pl1" onclick="randDice1()">Roll</div>
+        </div>
+
+        <div class="dice next-player">
+          <p>Player 1 or 2</p>
+          <br />
+          <p>Roll the Dice!</p>
+        </div>
+
+        <div id="dice2div" class="dice">
+          <p class="pl2title">Player 2</p>
+          <img class="img2" src="/assets/img/dice6.png" />
+          <div id="btnRoll2" class="btn-roll btnRoll-pl2" onclick="randDice2()">Roll</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer>🎲 Gamble Joy 🎲</footer>
+    </div>
+
+    <script src="/js/script.js" defer></script>
+  </body>
+</html>
